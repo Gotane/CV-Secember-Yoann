@@ -1,2 +1,2 @@
-# p2_secember_yoann
-Projet 2 formation développeur web junior
+# cv_yoann
+Projet 2 parcours développeur web junior OC
