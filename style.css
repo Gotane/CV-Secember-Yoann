@@ -45,7 +45,6 @@ ul {
 
 header {
     display: flex;
-    flex-direction: row;
 }
 
 
@@ -71,13 +70,19 @@ a:hover {
 
 #corps {
     display: flex;
-    flex-direction: row;
 }
 
 
 
-/* Bloc de gauche*/
+/* Bloc de gauche + mettre les 2 colonnes en une seule pour le responsive*/
 
+#soulignement {
+    height: 5px;
+    width: 20%;
+    background-color: #e5c028;
+    margin-top: -15px;
+    max-width: 50px;
+}
 
 
 
@@ -129,7 +134,8 @@ a:hover {
 
 #image_loisirs
 {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     font-size: 2em;
 }
 
@@ -167,7 +173,6 @@ span {
 
 .bloc_titre{
     display: flex;
-    flex-direction: row;
     margin-left: 50px;
 }
 
@@ -190,7 +195,7 @@ span {
 
 .article {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 50px;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -207,7 +212,6 @@ span {
 
 .dates {
     display: flex;
-    flex-direction: row;
     flex: 4;
     min-width: 270px;
 }

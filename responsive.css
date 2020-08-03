@@ -2,7 +2,6 @@
 { 
     /* Partie globale */
     header {
-        display: flex;
         flex-direction: column;
         width: 100%;
     }
@@ -11,13 +10,21 @@
         flex-direction: column;
     }
 
-    h2 {
-        border: none;
-    }
+    #bloc_droite {
+        display: flex;
+        flex-direction: column;
+        }
 
-    #h2responsive {
-        margin-block-start: 0;
-    }
+    h2 {
+        border: none
+     }
+
+    #dev{
+        font-size: 0.7em
+    } 
+        
+   
+
 
     /* Partie de gauche */
 
